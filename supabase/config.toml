@@ -1,0 +1,19 @@
+project_id = "joxtylgbrmxmcxvhpewu"
+
+[functions.process-document]
+verify_jwt = false
+
+[functions.rag-query]
+verify_jwt = false
+
+[functions.run-evaluation]
+verify_jwt = false
+
+[functions.test-tenant-isolation]
+verify_jwt = false
+
+[functions.test-pipeline]
+verify_jwt = false
+
+[functions.stress-test]
+verify_jwt = false

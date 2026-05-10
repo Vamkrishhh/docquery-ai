@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Required for React Router (BrowserRouter) — redirects all routes to index.html
+# Without this, refreshing on /chat or /settings returns a Netlify 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
